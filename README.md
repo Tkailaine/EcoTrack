@@ -91,13 +91,13 @@ Variáveis de ambiente (Secrets) configuradas no repositório:
 ## Prints do funcionamento
 
 ### Execução local via Docker
-Em breve.
+![Docker local](docs/images/local.png)
 
 ### Pipeline CI/CD no GitHub Actions
-Em breve.
+![Pipeline rodando](docs/images/action.png)
 
 ### Ambiente de Staging (Azure)
-Em breve.
+![Staging funcionando](docs/images/staging.png)
 
 ### Ambiente de Produção (Azure)
-Em breve.
+![Produção funcionando](docs/images/prod.png)
