@@ -14,6 +14,19 @@ A aplicação é uma API REST desenvolvida em Java com Spring Boot, conectada ao
 - GitHub Actions
 - Azure App Service
 
+## Endpoints da API
+
+Base URL Staging: `https://ecotrack-staging-ebgve0ghemape4ct.southafricanorth-01.azurewebsites.net`
+Base URL Produção: `https://ecotrack-prod-egc2csamgqabakak.southafricanorth-01.azurewebsites.net`
+
+| Método | Endpoint | Descrição |
+|--------|----------|-----------|
+| GET    | /api/pontos-coleta | Lista todos os pontos de coleta |
+| GET    | /api/pontos-coleta/{id} | Busca um ponto por ID |
+| POST   | /api/pontos-coleta | Cadastra um novo ponto |
+| PUT    | /api/pontos-coleta/{id} | Atualiza um ponto existente |
+| DELETE | /api/pontos-coleta/{id} | Remove um ponto por ID |
+
 ## Como rodar localmente com Docker
 
 1. Crie o arquivo `.env` copiando o `.env.example`:
